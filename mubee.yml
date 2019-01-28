@@ -12,3 +12,5 @@
     service:
       name: apache2
       state: restatred
+      notify
+      templates
