@@ -12,4 +12,7 @@
     service:
       name: apache2
       state: restatred
-    handlers:
+   handlers:
+      notify
+      templates
+
