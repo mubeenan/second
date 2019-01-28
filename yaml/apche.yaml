@@ -1,10 +1,9 @@
-// install git
 ---
 - hosts: all
   become: yes
   tasks:
-  - name: install git 
+  - name: install apache 
     apt:
-      name: git
+      name: apache2
       state: present 
       update_cache: yes
